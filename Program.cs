@@ -1,4 +1,9 @@
-﻿namespace Inlämningsuppgift2
+﻿using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
+using static Inlämningsuppgift2.customer;
+using static Inlämningsuppgift2.customer.BankCard;
+
+namespace Inlämningsuppgift2
 {
     internal class Program
     {
@@ -24,6 +29,18 @@
 
             BankAccount MyBankAccount = new BankAccount(); 
             MyBankAccount.AccountInfo();
+
+
+          customer Mycustomer = new customer();
+          Mycustomer.CustomerInfo();
+
+          Banknumber MyBanknumber = new Banknumber();
+          MyBanknumber.CustomerInfo();
+
+            BankCard MyBankCard = new BankCard();
+            MyBankCard.CustomerInfo();
+
+
 
         }
        

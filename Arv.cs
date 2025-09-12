@@ -2,7 +2,7 @@
 
 namespace Inlämningsuppgift2
 {
-    // Arv Metoden 
+    // Arv exemplet 
     public class Bank 
     {
         // dessa är attribut för klassen Bank 
