@@ -1,6 +1,7 @@
 ﻿
 namespace Inlämningsuppgift2
 {
+    // Inkapsling metoden
     public class Person
     { // detta är private attribut för klassen Person som skyddar för resten av världen
         private string firstName; 

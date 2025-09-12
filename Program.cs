@@ -16,7 +16,16 @@
 
             // Här skapar vi ett objekt av klassen person utav den inkapslade klassen Person
             Person MyInfo = new Person("Mohammad");
-            
+
+
+            //Här kallar vi fram metoder för klassen Bank och BankAccount  
+            Bank MyBank = new Bank();
+            MyBank.BankInfo(); 
+
+            BankAccount MyBankAccount = new BankAccount(); 
+            MyBankAccount.AccountInfo();
+
         }
+       
     }
 }
