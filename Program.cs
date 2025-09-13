@@ -38,9 +38,11 @@ namespace Inlämningsuppgift2
           MyBanknumber.CustomerInfo();
 
             BankCard MyBankCard = new BankCard();
-            MyBankCard.CustomerInfo();
+            MyBankCard.CustomerInfo(); 
+            
 
-
+            Account account = new Account(); 
+            account.Login(); 
 
         }
        
